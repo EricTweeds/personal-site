@@ -1,0 +1,231 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-nav-link {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    color: #555
+}
+
+.header-nav-link:hover {
+    color: black;
+}
+
+.header-nav-name {
+    color: #f89a36;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.header-icons {
+    width: 12rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+    color: #f89a36;
+}
+
+.about-me {
+    margin: 5rem 10rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-me-pic {
+    border: 3px solid #ddd;
+    border-radius: 2rem;
+    height: 19.1rem;
+    width: 15rem;
+}
+
+.about-me-details {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 60%;
+}
+
+.about-me-title {
+    font-size: 2em;
+}
+
+.about-me-info {
+    color: #555;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 10rem;
+}
+
+.skills-title {
+    font-size: 2em;
+    width: 15rem;
+    text-align: center;
+    color: #555;
+}
+
+.skills-title-icon {
+    margin-right: 0.5rem;
+    color: #f89a36;
+}
+
+.skills-type-title {
+    font-size: 1.5em;
+    margin-left: 17rem;
+    margin-top: 1rem;
+}
+
+.skills-details {
+    width: 60%;
+    margin-left: 17rem;
+}
+
+.skills-row {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ddd;
+    font-size: 1.25em;
+    padding: 0.5rem;
+}
+
+.skills-project-expanded {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 0.5rem 1rem;
+    height: 2rem;
+}
+
+.skills-experience-expanded {
+    display: none;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 0.5rem 1rem;
+    height: 2rem;
+    align-items: center;
+}
+
+.skills-project-year {
+    display: flex;
+    justify-content: flex-start;
+    width: 13rem;
+    color: #555;
+}
+
+.skills-project-name {
+    display: flex;
+    justify-content: center;
+    width: 13rem;
+    color: #555;
+}
+
+.skills-icons {
+    display: flex;
+    justify-content: flex-end;
+    width: 13rem;
+}
+
+.skills-project-location {
+    display: flex;
+    justify-content: flex-end;
+    width: 13rem;
+    color: #555;
+}
+
+.skills-icon {
+    margin: 0 0.5rem;
+    color: #555;
+}
+
+.skills-icon:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: space-between;
+    width: 15rem;
+}
+
+.hobbies {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 10rem;
+}
+
+.hobbies-row {
+    margin-left: 17rem;
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.hobbies-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    border: 1px solid #ddd;
+    width: 8rem;
+    height: 8rem;
+}
+
+.hobbies-title {
+    font-size: 2em;
+    width: 15rem;
+    text-align: center;
+    color: #555;
+}
+
+.hobbies-icon {
+    margin-bottom: 1rem;
+    font-size: 3em;
+    color: #f89a36;
+}
+
+.hobby-front {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.hobby-back {
+    display: none;
+    height: 100%;
+}
+
+@keyframes open-skills {
+    from {height: 0; font-size: 0;}
+    to {height: 2rem; font-size: 1em; visibility: visible;}
+}
+
+@keyframes close-skills {
+    from {height: 2rem; font-size: 1em;}
+    to {height: 0; font-size: 0; visibility: hidden;}
+}
+
+@keyframes card-flip {
+    0% {-webkit-transform: rotateY(0deg);}
+    100% { -webkit-transform: rotateY(90deg);}
+}
+
+@keyframes card-flip-2 {
+    0% {-webkit-transform: rotateY(270deg);}
+    100% { -webkit-transform: rotateY(360deg);}
+}

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/6d76f13730.js" crossorigin="anonymous"></script>
+    <title>Eric Tweedle</title>
+</head>
+<body style="margin-bottom: 2rem">
+    <div class="header">
+        <span class="header-nav-name" style="font-size: 2em; width: 12rem">Eric Tweedle</span>
+        <div style="display: flex; align-items: center;">
+            <span class="header-nav-link">Home</span>
+            <span class="header-nav-link">Projects</span>
+            <span class="header-nav-link">Resume</span>
+        </div>
+        <div class="header-icons">
+            <a class="header-nav-name" target="_blank" href="https://www.youtube.com/channel/UC3HrceNxPaLUltAhmgLAC5g">
+                <i class="fab fa-youtube" ></i>
+            </a>
+            <a class="header-nav-name" target="_blank" href="https://github.com/EricTweeds">
+                <i class="fab fa-github"></i>
+            </a>
+            <a class="header-nav-name" target="_blank" href="https://www.linkedin.com/in/eric-tweedle1/">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+    </div>
+    <div class="about-me">
+        <img src="./headshot.JPG" class="about-me-pic" />
+        <div class="about-me-details">
+            <span class="about-me-title">About Me</span>
+            <span class="about-me-info">Front-End Develop, Shoplogix | BASc in Mechatronics Engineering from the University of Waterloo</span>
+            <p>Hello Worlds</p>
+        </div>
+    </div>
+    <div class="skills">
+        <span class="skills-title">Skills</span>
+        <span class="skills-type-title"><i class="fab fa-react skills-title-icon"></i>React</span>
+        <div class="skills-details">
+            <div class="skills-row" onclick="toggleElements('react-project')">
+                <span class="skills-list">3 Projects</span>
+                <i name="react-project" style="display: inline;" class="fas fa-caret-down"></i>
+                <i name="react-project" style="display: none;" class="fas fa-caret-up"></i>
+            </div>
+            <div name="react-project" class="skills-project-expanded" style="display: none;">
+                <span class="skills-project-year">2020</span>
+                <span class="skills-project-name">Card Portal</span>
+                <div class="skills-icons">
+                    <a class="skills-icon" href="https://github.com/EricTweeds/cardPortal" target="_blank"><i class="fas fa-code-branch"></i></a>
+                    <a class="skills-icon" href=""><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div name="react-project" class="skills-project-expanded" style="display: none;">
+                <span class="skills-project-year">2019-20</span>
+                <span class="skills-project-name">Aftershock Native App</span>
+                <div class="skills-icons">
+                    <a class="skills-icon" href="https://github.com/EricTweeds/aftershock-app/tree/master/aftershock-app" target="_blank"><i class="fas fa-code-branch"></i></a>
+                    <a class="skills-icon" href="http://after-shock.ca/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div name="react-project" class="skills-project-expanded" style="display: none;">
+                <span class="skills-project-year">2017-19</span>
+                <span class="skills-project-name">Home Dashboard</span>
+                <div class="skills-icons">
+                    <a class="skills-icon" href="https://github.com/EricTweeds/Dashboard" target="_blank"><i class="fas fa-code-branch"></i></a>
+                    <a class="skills-icon" href=""><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="skills-row" style="border-top: none;" onclick="toggleElements('react-experience')">
+                <span class="skills-list">3 Years of Experience</span>
+                <i name="react-experience" style="display: inline;" class="fas fa-caret-down"></i>
+                <i name="react-experience" style="display: none;" class="fas fa-caret-up"></i>
+            </div>
+            <div name="react-experience" class="skills-experience-expanded" style="display: none;">
+                <span class="skills-project-year">2020</span>
+                <span class="skills-project-name">Shoplogix</span>
+                <span class="skills-project-location">Oakville, ON</span>
+            </div>
+            <div name="react-experience" class="skills-experience-expanded" style="display: none;">
+                <span class="skills-project-year">2018-19</span>
+                <span class="skills-project-name">Shoplogix (Co-op)</span>
+                <span class="skills-project-location">Oakville, ON</span>
+            </div>
+            <div name="react-experience" class="skills-experience-expanded" style="display: none;">
+                <span class="skills-project-year">2018</span>
+                <span class="skills-project-name">Bespoke Metrics (Co-op)</span>
+                <span class="skills-project-location">Toronto, ON</span>
+            </div>
+        </div>
+        <span class="skills-type-title"><i class="fab fa-microsoft skills-title-icon"></i>C#</span>
+        <div class="skills-details">
+            <div class="skills-row" onclick="toggleElements('csharp-project')">
+                <span class="skills-list">1 Project</span>
+                <i name="csharp-project" style="display: inline;" class="fas fa-caret-down"></i>
+                <i name="csharp-project" style="display: none;" class="fas fa-caret-up"></i>
+            </div>
+            <div name="csharp-project" class="skills-project-expanded" style="display: none;">
+                <span class="skills-project-year">2018-20</span>
+                <span class="skills-project-name">Quickbooks Import Tool</span>
+                <div class="skills-icons">
+                    <a class="skills-icon" href="https://github.com/EricTweeds/Quickbooks-Integration-Tool" target="_blank"><i class="fas fa-code-branch"></i></a>
+                    <a class="skills-icon" href=""><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="skills-row" style="border-top: none;" onclick="toggleElements('csharp-experience')">
+                <span class="skills-list">2 Years of Experience</span>
+                <i name="csharp-experience" style="display: inline;" class="fas fa-caret-down"></i>
+                <i name="csharp-experience" style="display: none;" class="fas fa-caret-up"></i>
+            </div>
+            <div name="csharp-experience" class="skills-experience-expanded" style="display: none;">
+                <span class="skills-project-year">2020</span>
+                <span class="skills-project-name">Shoplogix</span>
+                <span class="skills-project-location">Oakville, ON</span>
+            </div>
+            <div name="csharp-experience" class="skills-experience-expanded" style="display: none;">
+                <span class="skills-project-year">2018-19</span>
+                <span class="skills-project-name">Shoplogix (Co-op)</span>
+                <span class="skills-project-location">Oakville, ON</span>
+            </div>
+        </div>
+        <span class="skills-type-title"><i class="fab fa-python skills-title-icon"></i>Python</span>
+        <div class="skills-details">
+            <div class="skills-row" onclick="toggleElements('python-project')">
+                <span class="skills-list">3 Project</span>
+                <i name="python-project" style="display: inline;" class="fas fa-caret-down"></i>
+                <i name="python-project" style="display: none;" class="fas fa-caret-up"></i>
+            </div>
+            <div name="python-project" class="skills-project-expanded" style="display: none;">
+                <span class="skills-project-year">2020</span>
+                <span class="skills-project-name">LSTM Stock Predictor</span>
+                <div class="skills-icons">
+                    <a class="skills-icon" href="https://github.com/EricTweeds/LSTM_Stock_Predictor" target="_blank"><i class="fas fa-code-branch"></i></a>
+                    <a class="skills-icon" href=""><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div name="python-project" class="skills-project-expanded" style="display: none;">
+                <span class="skills-project-year">2017-19</span>
+                <span class="skills-project-name">Home Dashboard API</span>
+                <div class="skills-icons">
+                    <a class="skills-icon" href="https://github.com/EricTweeds/dashboard-be" target="_blank"><i class="fas fa-code-branch"></i></a>
+                    <a class="skills-icon" href=""><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div name="python-project" class="skills-project-expanded" style="display: none;">
+                <span class="skills-project-year">2014</span>
+                <span class="skills-project-name">El Presidente Game</span>
+                <div class="skills-icons">
+                    <a class="skills-icon" href="https://github.com/EricTweeds/ElPresidente" target="_blank"><i class="fas fa-code-branch"></i></a>
+                    <a class="skills-icon" href=""><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="skills-row" style="border-top: none;" onclick="toggleElements('python-experience')">
+                <span class="skills-list">1 Years of Experience</span>
+                <i name="python-experience" style="display: inline;" class="fas fa-caret-down"></i>
+                <i name="python-experience" style="display: none;" class="fas fa-caret-up"></i>
+            </div>
+            <div name="python-experience" class="skills-experience-expanded" style="display: none;">
+                <span class="skills-project-year">2019</span>
+                <span class="skills-project-name">Computer Networks Labs</span>
+                <span class="skills-project-location">University of Waterloo</span>
+            </div>
+        </div>
+        <span class="skills-type-title"><i class="fas fa-code skills-title-icon"></i>Other</span>
+        <div class="skills-details">
+            <div class="skills-row" onclick="toggleElements('go-project')">
+                <span class="skills-list">Go [1]</span>
+                <i name="go-project" style="display: inline;" class="fas fa-caret-down"></i>
+                <i name="go-project" style="display: none;" class="fas fa-caret-up"></i>
+            </div>
+            <div name="go-project" class="skills-project-expanded" style="display: none;">
+                <span class="skills-project-year">2020</span>
+                <span class="skills-project-name">Card Portal API</span>
+                <div class="skills-icons">
+                    <a class="skills-icon" href="https://github.com/EricTweeds/cardApiGO" target="_blank"><i class="fas fa-code-branch"></i></a>
+                    <a class="skills-icon" href=""><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="skills-row" style="border-top: none;" onclick="toggleElements('cplus-project')">
+                <span class="skills-list">C++ [3]</span>
+                <i name="cplus-project" style="display: inline;" class="fas fa-caret-down"></i>
+                <i name="cplus-project" style="display: none;" class="fas fa-caret-up"></i>
+            </div>
+            <div name="cplus-project" class="skills-experience-expanded" style="display: none;">
+                <span class="skills-project-year">2020</span>
+                <span class="skills-project-name">Programming for Performance</span>
+                <span class="skills-project-location">University of Waterloo</span>
+            </div>
+            <div name="cplus-project" class="skills-project-expanded" style="display: none;">
+                <span class="skills-project-year">2019</span>
+                <span class="skills-project-name">Search and Rescue Bot</span>
+                <div class="skills-icons">
+                    <a class="skills-icon" href="https://github.com/EricTweeds/S-R-Device" target="_blank"><i class="fas fa-code-branch"></i></a>
+                    <a class="skills-icon" href=""><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div name="cplus-project" class="skills-project-expanded" style="display: none;">
+                <span class="skills-project-year">2017</span>
+                <span class="skills-project-name">Coin Measurement Device</span>
+                <div class="skills-icons">
+                    <a class="skills-icon" href="https://github.com/EricTweeds/Coin-Thickness-Measuring-Device" target="_blank"><i class="fas fa-code-branch"></i></a>
+                    <a class="skills-icon" href=""><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hobbies">
+        <span class="hobbies-title">Hobbies</span>
+        <div class="hobbies-row">
+            <div id="hobby-bike" class="hobbies-box" onClick="flipCard('hobby-bike')">
+                <div class="hobby-front">
+                    <i class="fas fa-biking hobbies-icon"></i>
+                    <span class="hobbies-name">Mountain Biking</span>
+                </div>
+                <div class="hobby-back">
+                    <img src="./Specialized.png" style="width: 100%; height: 100%;"/>
+                </div>
+            </div>
+            <div id="hobby-games" class="hobbies-box" onClick="flipCard('hobby-games')">
+                <div class="hobby-front">
+                    <i class="fas fa-gamepad hobbies-icon"></i>
+                    <span class="hobbies-name">Video Games</span>
+                </div>
+                <div class="hobby-back">
+                    <img src="./valorant.png" style="width: 100%; height: 100%;"/>
+                </div>
+            </div>
+            <div id="hobby-hockey" class="hobbies-box" onClick="flipCard('hobby-hockey')">
+                <div class="hobby-front">
+                    <i class="fas fa-hockey-puck hobbies-icon"></i>
+                    <span class="hobbies-name">Hockey</span>
+                </div>
+                <div class="hobby-back">
+                    <img src="./leafs.png" style="width: 100%; height: 100%;"/>
+                </div>
+            </div>
+            <div id="hobby-camping" class="hobbies-box" onClick="flipCard('hobby-camping')">
+                <div class="hobby-front">
+                    <i class="fas fa-campground hobbies-icon"></i>
+                    <span class="hobbies-name">Camping</span>
+                </div>
+                <div class="hobby-back">
+                    <img src="./parks.jpeg" style="width: 100%; height: 100%;"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    function toggleElements(id) {
+        var y = document.getElementsByName(id);
+        for (var i = 0; i < y.length; i++) {
+            var e = y[i];
+            if (e.style.display === "none") {
+                e.style.display = "flex";
+                if (e.tagName != "I")
+                    e.style.animation = "open-skills 1s"
+            } else {
+                e.style.display = "none"
+            }
+        }
+    }
+
+    function flipCard(id) {
+        let e = document.getElementById(id);
+        e.style.animation = "card-flip 0.5s";
+
+        e.addEventListener("webkitAnimationEnd", cardFlipListener, false);
+    }
+
+    function cardFlipListener() {
+        if (this.style.animation === "0.5s ease 0s 1 normal none running card-flip") {
+            this.style.animation = "0.5s ease 0s 1 normal none running card-flip-2";
+            if (this.children[0].style.display === "none") {
+                this.children[0].style.display = "flex";
+                this.children[1].style.display = "none";
+            } else {
+                this.children[0].style.display = "none";
+                this.children[1].style.display = "block";
+            }
+        } else {
+            this.style.animation = "";
+            this.removeEventListener("webkitAnimationEnd", cardFlipListener);
+        }
+    }
+</script>
+</html>
