@@ -5,17 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./bomb-solid.png">
     <script src="https://kit.fontawesome.com/6d76f13730.js" crossorigin="anonymous"></script>
     <title>Eric Tweedle</title>
 </head>
 <body style="margin-bottom: 2rem">
     <div class="header">
-        <span class="header-nav-name" style="font-size: 2em; width: 12rem">Eric Tweedle</span>
-        <div style="display: flex; align-items: center;">
-            <span class="header-nav-link">Home</span>
-            <span class="header-nav-link">Projects</span>
-            <span class="header-nav-link">Resume</span>
-        </div>
+        <span class="header-nav-name" style="font-size: 2em; width: 20rem">Eric Tweedle</span>
         <div class="header-icons">
             <a class="header-nav-name" target="_blank" href="https://www.youtube.com/channel/UC3HrceNxPaLUltAhmgLAC5g">
                 <i class="fab fa-youtube" ></i>
@@ -29,11 +25,14 @@
         </div>
     </div>
     <div class="about-me">
-        <img src="./headshot.JPG" class="about-me-pic" />
+        <img src="./headshot.png" class="about-me-pic" />
         <div class="about-me-details">
             <span class="about-me-title">About Me</span>
             <span class="about-me-info">Front-End Develop, Shoplogix | BASc in Mechatronics Engineering from the University of Waterloo</span>
-            <p>Hello Worlds</p>
+            <p>I am a highly motivated developer and am always looking for that next challenging project. I have a passion for the outdoors
+                and if I am not at my computer desk I am probably out on my bike. This site showcases my personal projects and my experience with
+                various languages.
+            </p>
         </div>
     </div>
     <div class="skills">
@@ -50,7 +49,6 @@
                 <span class="skills-project-name">Card Portal</span>
                 <div class="skills-icons">
                     <a class="skills-icon" href="https://github.com/EricTweeds/cardPortal" target="_blank"><i class="fas fa-code-branch"></i></a>
-                    <a class="skills-icon" href=""><i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
             <div name="react-project" class="skills-project-expanded" style="display: none;">
@@ -66,16 +64,15 @@
                 <span class="skills-project-name">Home Dashboard</span>
                 <div class="skills-icons">
                     <a class="skills-icon" href="https://github.com/EricTweeds/Dashboard" target="_blank"><i class="fas fa-code-branch"></i></a>
-                    <a class="skills-icon" href=""><i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
             <div class="skills-row" style="border-top: none;" onclick="toggleElements('react-experience')">
-                <span class="skills-list">3 Years of Experience</span>
+                <span class="skills-list">4 Years of Experience</span>
                 <i name="react-experience" style="display: inline;" class="fas fa-caret-down"></i>
                 <i name="react-experience" style="display: none;" class="fas fa-caret-up"></i>
             </div>
             <div name="react-experience" class="skills-experience-expanded" style="display: none;">
-                <span class="skills-project-year">2020</span>
+                <span class="skills-project-year">2020-</span>
                 <span class="skills-project-name">Shoplogix</span>
                 <span class="skills-project-location">Oakville, ON</span>
             </div>
@@ -102,16 +99,15 @@
                 <span class="skills-project-name">Quickbooks Import Tool</span>
                 <div class="skills-icons">
                     <a class="skills-icon" href="https://github.com/EricTweeds/Quickbooks-Integration-Tool" target="_blank"><i class="fas fa-code-branch"></i></a>
-                    <a class="skills-icon" href=""><i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
             <div class="skills-row" style="border-top: none;" onclick="toggleElements('csharp-experience')">
-                <span class="skills-list">2 Years of Experience</span>
+                <span class="skills-list">3 Years of Experience</span>
                 <i name="csharp-experience" style="display: inline;" class="fas fa-caret-down"></i>
                 <i name="csharp-experience" style="display: none;" class="fas fa-caret-up"></i>
             </div>
             <div name="csharp-experience" class="skills-experience-expanded" style="display: none;">
-                <span class="skills-project-year">2020</span>
+                <span class="skills-project-year">2020-</span>
                 <span class="skills-project-name">Shoplogix</span>
                 <span class="skills-project-location">Oakville, ON</span>
             </div>
@@ -133,7 +129,6 @@
                 <span class="skills-project-name">LSTM Stock Predictor</span>
                 <div class="skills-icons">
                     <a class="skills-icon" href="https://github.com/EricTweeds/LSTM_Stock_Predictor" target="_blank"><i class="fas fa-code-branch"></i></a>
-                    <a class="skills-icon" href=""><i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
             <div name="python-project" class="skills-project-expanded" style="display: none;">
@@ -141,7 +136,6 @@
                 <span class="skills-project-name">Home Dashboard API</span>
                 <div class="skills-icons">
                     <a class="skills-icon" href="https://github.com/EricTweeds/dashboard-be" target="_blank"><i class="fas fa-code-branch"></i></a>
-                    <a class="skills-icon" href=""><i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
             <div name="python-project" class="skills-project-expanded" style="display: none;">
@@ -149,7 +143,6 @@
                 <span class="skills-project-name">El Presidente Game</span>
                 <div class="skills-icons">
                     <a class="skills-icon" href="https://github.com/EricTweeds/ElPresidente" target="_blank"><i class="fas fa-code-branch"></i></a>
-                    <a class="skills-icon" href=""><i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
             <div class="skills-row" style="border-top: none;" onclick="toggleElements('python-experience')">
@@ -175,7 +168,6 @@
                 <span class="skills-project-name">Card Portal API</span>
                 <div class="skills-icons">
                     <a class="skills-icon" href="https://github.com/EricTweeds/cardApiGO" target="_blank"><i class="fas fa-code-branch"></i></a>
-                    <a class="skills-icon" href=""><i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
             <div class="skills-row" style="border-top: none;" onclick="toggleElements('cplus-project')">
@@ -193,7 +185,6 @@
                 <span class="skills-project-name">Search and Rescue Bot</span>
                 <div class="skills-icons">
                     <a class="skills-icon" href="https://github.com/EricTweeds/S-R-Device" target="_blank"><i class="fas fa-code-branch"></i></a>
-                    <a class="skills-icon" href=""><i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
             <div name="cplus-project" class="skills-project-expanded" style="display: none;">
@@ -201,8 +192,24 @@
                 <span class="skills-project-name">Coin Measurement Device</span>
                 <div class="skills-icons">
                     <a class="skills-icon" href="https://github.com/EricTweeds/Coin-Thickness-Measuring-Device" target="_blank"><i class="fas fa-code-branch"></i></a>
-                    <a class="skills-icon" href=""><i class="fas fa-external-link-alt"></i></a>
                 </div>
+            </div>
+            <div class="skills-row" style="border-top: none;" onclick="toggleElements('swift-project')">
+                <span class="skills-list">Swift [2]</span>
+                <i name="swift-project" style="display: inline;" class="fas fa-caret-down"></i>
+                <i name="swift-project" style="display: none;" class="fas fa-caret-up"></i>
+            </div>
+            <div name="swift-project" class="skills-experience-expanded" style="display: none;">
+                <span class="skills-project-year">2020</span>
+                <span class="skills-project-name">Card Portal Mobile App</span>
+                <div class="skills-icons">
+                    <a class="skills-icon" href="https://github.com/EricTweeds/Card-Portal-iOS" target="_blank"><i class="fas fa-code-branch"></i></a>
+                </div>
+            </div>
+            <div name="swift-project" class="skills-experience-expanded" style="display: none;">
+                <span class="skills-project-year">2021</span>
+                <span class="skills-project-name">Heart Rhythm Generator App</span>
+                <div class="skills-icons"></div>
             </div>
         </div>
     </div>
@@ -215,7 +222,7 @@
                     <span class="hobbies-name">Mountain Biking</span>
                 </div>
                 <div class="hobby-back">
-                    <img src="./Specialized.png" style="width: 100%; height: 100%;"/>
+                    <img src="./rockyMountain.png" style="width: 100%; height: 100%;"/>
                 </div>
             </div>
             <div id="hobby-games" class="hobbies-box" onClick="flipCard('hobby-games')">
@@ -247,6 +254,85 @@
             </div>
         </div>
     </div>
+    <div class="projects">
+        <span class="project-title">Personal Projects</span>
+        <div class="project-row">
+            <div id="project-1" class="project-box">
+                <div class="project-front">
+                    <div class="project-main">
+                        <div class="project-photo">
+                            <img src="./aftershockLogo.png" height="131px" width="200px"/>
+                        </div>
+                        <div class="project-details">
+                            <h1 class="project-name">AfterShock</h1>
+                            <span class="project-subtitle">Fourth Year Design Project</span>
+                            <ul class="project-description">
+                                <li>Realtime Concussion Detection</li>
+                                <li>Headband worn under hockey helmet</li>
+                                <li>Accelerometers to measure head movement</li>
+                                <li>Mobile App for live feedback</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="http://after-shock.ca/" target="_blank"><div class="project-button">Website</div></a>
+                        <a href="https://www.youtube.com/watch?v=pCgsTMpsX0Y&ab_channel=bradmcallister" target="_blank"><div class="project-button"><span class="project-text">Video</span></div></a>
+                        <a href="https://github.com/EricTweeds/aftershock-app" target="_blank"><div class="project-button">Source Code</div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project-row">
+            <div id="project-1" class="project-box">
+                <div class="project-front">
+                    <div class="project-main">
+                        <div class="project-photo">
+                            <img src="./cardPortal.png" height="131px" width="200px"/>
+                        </div>
+                        <div class="project-details">
+                            <h1 class="project-name">Card Portal</h1>
+                            <span class="project-subtitle">Hockey Card Tracker</span>
+                            <ul class="project-description">
+                                <li>React app for inputing card data and viewing saved cards</li>
+                                <li>Go API with sql database for saving cards</li>
+                                <li>iOS mobile app for viewing cards</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/EricTweeds/cardPortal" target="_blank"><div class="project-button">React Code</div></a>
+                        <a href="https://github.com/EricTweeds/cardApiGO" target="_blank"><div class="project-button"><span class="project-text">Go Code</span></div></a>
+                        <a href="https://github.com/EricTweeds/Card-Portal-iOS" target="_blank"><div class="project-button">Swift Code</div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project-row">
+            <div id="project-1" class="project-box">
+                <div class="project-front">
+                    <div class="project-main">
+                        <div class="project-photo">
+                            <img src="./hockeyStats.png" height="131px" width="200px"/>
+                        </div>
+                        <div class="project-details">
+                            <h1 class="project-name">Hockey Stats</h1>
+                            <span class="project-subtitle">Website to track player and team stats for a local mens team</span>
+                            <ul class="project-description">
+                                <li>Data inputted and updated live from a Google sheet</li>
+                                <li>Display team record and past games</li>
+                                <li>Sortable table containing player stats</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://hockey-stats-site.web.app/" target="_blank"><div class="project-button">Website</div></a>
+                        <a href="https://github.com/EricTweeds/hockeyStats" target="_blank"><div class="project-button">Source Code</div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 <script>

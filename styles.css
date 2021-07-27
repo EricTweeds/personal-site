@@ -1,3 +1,7 @@
+body {
+    font-size: calc((1.25vw + 1.25vh) / 2);
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -25,6 +29,7 @@
 
 .header-icons {
     width: 12rem;
+    margin-left: 8rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,7 +46,7 @@
 .about-me-pic {
     border: 3px solid #ddd;
     border-radius: 2rem;
-    height: 19.1rem;
+    height: 15rem;
     width: 15rem;
 }
 
@@ -70,7 +75,7 @@
 .skills-title {
     font-size: 2em;
     width: 15rem;
-    text-align: center;
+    text-align: left;
     color: #555;
 }
 
@@ -172,6 +177,8 @@
     display: flex;
     width: 60%;
     justify-content: space-between;
+    padding: 0.5rem;
+    min-height: 10rem;
 }
 
 .hobbies-box {
@@ -179,15 +186,21 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    border: 1px solid #ddd;
+    border: 1px solid #f89a36;
+    border-radius: 1rem;
     width: 8rem;
     height: 8rem;
+}
+
+.hobbies-box:hover {
+    box-shadow: 1px 1px 1px 1px #f89a36;
+    cursor: pointer;
 }
 
 .hobbies-title {
     font-size: 2em;
     width: 15rem;
-    text-align: center;
+    text-align: left;
     color: #555;
 }
 
@@ -208,6 +221,107 @@
 .hobby-back {
     display: none;
     height: 100%;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 10rem;
+}
+
+.project-row {
+    margin-left: 17rem;
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    padding: 0.5rem;
+    min-height: 10rem;
+}
+
+.project-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #ddd;
+    width: 40rem;
+    height: 25rem;
+}
+
+.project-title {
+    font-size: 2em;
+    width: 30rem;
+    text-align: left;
+    color: #555;
+}
+
+.project-subtitle {
+    padding: 1rem;
+}
+
+.project-front {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+}
+
+.project-back {
+    display: none;
+    height: 100%;
+}
+
+.project-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+}
+
+.project-photo {
+    margin: 1rem;
+}
+
+.project-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-left: 1px solid #ddd;
+}
+
+.project-description {
+    margin: 1rem;
+    margin-top: 2rem;
+}
+
+.project-links {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.project-button {
+    border: 1px solid #f89a36;
+    padding: 0.5rem 1rem;
+    color: #000;
+    text-decoration: none !important;
+    z-index: 100;
+}
+
+.project-button:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.project-text {
+    text-decoration: none !important;
 }
 
 @keyframes open-skills {
